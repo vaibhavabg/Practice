@@ -1,0 +1,316 @@
+body {
+    background: #eee;
+    /* This is just a helper in case the element has a transparent background or white colors. */
+  }
+  
+  * {
+    box-sizing: inherit;
+  }
+  
+  .exportedElement {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Sohne, Helvetica, Arial, sans-serif;
+    color: #000;
+    letter-spacing: .01em;
+  }
+  
+  html, body, div, span, h2, p {
+    font-variant: inherit;
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    font-style: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+    vertical-align: baseline;
+  }
+  
+  .container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  .mc-mt-12 {
+    margin-top: 9.6rem;
+  }
+  
+  .mc-px-0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  @media (min-width: 576px) {
+    .container {
+      max-width: 100%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 100%;
+    }
+  }
+  
+  @media (min-width: 960px) {
+    .container {
+      max-width: 100%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1328px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) {
+    .container {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .container {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+  
+  @media only screen and (min-width: 960px) {
+    .container {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .container {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+  
+  .mc-text-h2 {
+    font-size: 3.2rem;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: .03em;
+  }
+  
+  .mc-mb-11 {
+    margin-bottom: 8rem;
+  }
+  
+  @media (min-width: 0) {
+    .mc-text--center {
+      text-align: center !important;
+    }
+  }
+  
+  .guest-doodle {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .guest-doodle::after {
+    content: "";
+    position: absolute;
+    display: block;
+    pointer-events: none;
+  }
+  
+  .guest-doodle-br::after {
+    background-position: center center;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 100%;
+    width: 142px;
+    height: 80px;
+    transform: translate(-10%, 0);
+    background-image: url(https://www.masterclass.com/webpack/_/br-1fd8818d824c526f5243c2a859b04538.png);
+    background-size: 142px 80px;
+    background-color: initial;
+  }
+  
+  ._352_6IborH3dSS6D26IObp {
+    margin-top: 9.6rem;
+    padding-top: 2.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media (min-width: 960px) {
+    ._352_6IborH3dSS6D26IObp {
+      margin-top: 0;
+      padding-top: 0;
+      padding-right: 9.6rem;
+      padding-bottom: 0;
+      padding-left: 9.6rem;
+      height: 515px;
+    }
+  }
+  
+  ._24_hXI0hm7TlabKvKWebux {
+    flex-direction: column;
+    width: 4px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #dbdde1;
+  }
+  
+  @media (min-width: 960px) {
+    ._24_hXI0hm7TlabKvKWebux {
+      flex-direction: row;
+      width: 950px;
+      height: 4px;
+      max-width: 100%;
+    }
+  }
+  
+  ._22ZFekdZyQ7YMTN_7cUsJl {
+    border-radius: 100%;
+    margin-bottom: 100px;
+    transform: translateX(-12px);
+    position: relative;
+    width: 28px;
+    height: 28px;
+    background-color: #dbdde1;
+  }
+  
+  @media (min-width: 960px) {
+    ._22ZFekdZyQ7YMTN_7cUsJl {
+      margin-bottom: 0;
+      transform: translateY(-12px);
+    }
+  }
+  
+  .mc-shadow--high {
+    box-shadow: rgba(148, 154, 164, 0.25) 0 0 16px 8px;
+  }
+  
+  ._5D-dIeYd929pPkUsT4SQu {
+    border-radius: .8rem;
+    width: 125px;
+    transform: translate(-120%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+  }
+  
+  @media (min-width: 576px) {
+    ._5D-dIeYd929pPkUsT4SQu {
+      width: 150px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    ._5D-dIeYd929pPkUsT4SQu {
+      width: 175px;
+    }
+  }
+  
+  @media (min-width: 960px) {
+    ._5D-dIeYd929pPkUsT4SQu {
+      width: 240px;
+      transform: translate(-50%, -120%);
+    }
+  }
+  
+  @media (min-width: 960px) {
+    ._5D-dIeYd929pPkUsT4SQu::after {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%, calc(100% - 1px));
+      border-width: 14px;
+      border-style: solid;
+      border-color: #fff transparent transparent;
+    }
+  }
+  
+  .-TLo2c088t15UzY5tioDf {
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    background-size: cover;
+    background-color: transparent;
+    border-top-left-radius: .8rem;
+    border-top-right-radius: .8rem;
+  }
+  
+  .mc-p-3 {
+    padding: 1.2rem;
+  }
+  
+  .mc-text--bold {
+    font-weight: 500 !important;
+  }
+  
+  .mc-text-color--gray-500 {
+    color: #949aa4;
+  }
+  
+  .mc-text--2-lines {
+    overflow: hidden;
+    display: -webkit-box;
+    height: 3em;
+  }
+  
+  ._22ZFekdZyQ7YMTN_7cUsJl:nth-child(2n) ._5D-dIeYd929pPkUsT4SQu {
+    transform: translate(20%, -50%);
+  }
+  
+  @media (min-width: 960px) {
+    ._22ZFekdZyQ7YMTN_7cUsJl:nth-child(2n) ._5D-dIeYd929pPkUsT4SQu {
+      transform: translate(-50%, 20%);
+    }
+  }
+  
+  @media (min-width: 960px) {
+    ._22ZFekdZyQ7YMTN_7cUsJl:nth-child(2n) ._5D-dIeYd929pPkUsT4SQu::after {
+      top: 0;
+      bottom: auto;
+      border-color: transparent transparent #fff;
+      transform: translate(-50%, calc(-100% + 1px));
+    }
+  }
+  
+  ._22ZFekdZyQ7YMTN_7cUsJl:nth-child(2n) .-TLo2c088t15UzY5tioDf {
+    border-radius: .8rem .8rem 0 0;
+  }
+  
+  @media (min-width: 960px) {
+    ._22ZFekdZyQ7YMTN_7cUsJl:nth-child(2n) .-TLo2c088t15UzY5tioDf {
+      border-radius: 0 0 .8rem .8rem;
+      order: 1;
+    }
+  }
+  
+  @media (min-width: 960px) {
+    ._22ZFekdZyQ7YMTN_7cUsJl:nth-child(2n) ._5D-dIeYd929pPkUsT4SQu .-TLo2c088t15UzY5tioDf {
+      order: 2;
+    }
+  }
+  
+  html {
+    font-size: 10px;
+    /* This is IMPORTANT since some copied values use "REM" units */
+  }
